@@ -6,7 +6,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Write CML report
+      - name: cml_run
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
